@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 LaunchX</title>
+</head>
+
+<body style="background-color:#F0F7FF">
+
+    <img src="./FOUNDANT.png" alt="Logo pastelería" width="150px">
+
+    <h1>Haz tu pedido</h1>
+
+    <form action="/accion.js" id="form1" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br><br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br><br>
+        <label for=sabor">Sabor deseado:</label>
+        <input type="text" id="sabor" name="sabor"><br><br>
+        <label for=deco">Decoraciones:</label>
+        <input type="text" id="deco" name="deco"><br><br>
+        <label for=anticipo">Anticipo:</label>
+        <input type="number" id="anticipo" name="anticipo"><br><br>
+        <label for="fecha">Fecha requerida:</label>
+        <input type="date" id="start" name="trip-start" value="2022-03-06" min="2022-03-06" max="2025-12-31">
+
+
+
+        <input type="submit" value="Ordenar">
+
+    </form>
+    
+
+</body>
+
+</html>
